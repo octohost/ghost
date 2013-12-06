@@ -1,4 +1,22 @@
-# [Ghost](https://github.com/TryGhost/Ghost) [![Build Status](https://magnum.travis-ci.com/TryGhost/Ghost.png?token=hMRLUurj2P3wzBdscyQs&branch=master)](https://magnum.travis-ci.com/TryGhost/Ghost)
+Ghost
+=======
+
+Basic [Ghost](https://ghost.org/) container for octohost.
+
+Clone this repo and use Ghost to develop your website.
+
+Push this repo to your octohost:
+
+```
+git clone https://github.com/octohost/ghost.git
+cd sinatra
+git remote add octohost git@ip.address.here:ghost.git
+git push octohost master
+```
+
+Example site \(usually\) at [http://ghost.octohost.io](http://ghost.octohost.io)
+
+# [Ghost](https://github.com/TryGhost/Ghost)
 
 Ghost is a free, open, simple blogging platform that's available to anyone who wants to use it. Lovingly created and maintained by [John O'Nolan](http://twitter.com/JohnONolan) + [Hannah Wolfe](http://twitter.com/ErisDS) + an amazing group of [contributors](https://github.com/TryGhost/Ghost/contributors).
 
