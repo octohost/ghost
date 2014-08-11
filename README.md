@@ -16,6 +16,12 @@ git push octohost master
 
 Example site \(usually\) at [http://ghost.octohost.io](http://ghost.octohost.io)
 
+PLEASE NOTE: This Dockerfile keeps the data files inside the container. You can and will lose data unless you take steps to:
+
+1. Backup your image.
+2. Move your datafiles to an external volume.
+3. Find another solution to save the state.
+
 # [Ghost](https://github.com/TryGhost/Ghost)
 
 Ghost is a free, open, simple blogging platform that's available to anyone who wants to use it. Lovingly created and maintained by [John O'Nolan](http://twitter.com/JohnONolan) + [Hannah Wolfe](http://twitter.com/ErisDS) + an amazing group of [contributors](https://github.com/TryGhost/Ghost/contributors).
