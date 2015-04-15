@@ -14,8 +14,6 @@ git remote add octohost git@ip.address.here:ghost.git
 git push octohost master
 ```
 
-Example site \(usually\) at [http://ghost.octohost.io](http://ghost.octohost.io)
-
 PLEASE NOTE: This Dockerfile keeps the data files inside the container. You can and will lose data unless you take steps to:
 
 1. Backup your image.
